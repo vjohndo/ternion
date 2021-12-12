@@ -1,9 +1,24 @@
 {
-    "scripts": {
-        "start": "node server.js",
-        "heroku-postbuild": "cd client && yarn && yarn build"
-    },
-    "dependencies": {
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && yarn && yarn build"
+  },
+  "dependencies": {
     "express": "^4.17.1"
-    }
+  },
+  "name": "ternion",
+  "description": "Hopefully something in three.js and React",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vjohndo/ternion.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vjohndo/ternion/issues"
+  },
+  "homepage": "https://github.com/vjohndo/ternion#readme"
 }
