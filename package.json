@@ -5,6 +5,11 @@
   "name": "ternion",
   "description": "Hopefully something in three.js and React",
   "version": "1.0.0",
+  "engines": {
+    "node": "17.0.1",
+    "npm": "8.1.0",
+    "yarn": "1.22.17"
+  },
   "main": "server.js",
   "devDependencies": {},
   "repository": {
