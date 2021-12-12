@@ -1,5 +1,9 @@
 {
-  "dependencies": {
+    "scripts": {
+        "start": "node server.js",
+        "heroku-postbuild": "cd client && yarn && yarn build"
+    },
+    "dependencies": {
     "express": "^4.17.1"
-  }
+    }
 }
