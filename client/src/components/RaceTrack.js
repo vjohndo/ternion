@@ -227,8 +227,8 @@ export default function RaceTrack() {
     return (
         <>
         {
-            track.map((coords) => {
-                return <PhysicsBox position={[coords[0]+3, -2, coords[1]+2]}/>
+            track.map((coords, index) => {
+                return <PhysicsBox key={index} position={[coords[0]+3, -2, coords[1]+2]}/>
             })
         }
         </>

@@ -2,7 +2,7 @@ import React from "react"
 import { useBox } from "@react-three/cannon"
 
 export default function PhysicsBox({position}) {
-    const [ref, api] = useBox(() => ({
+    const [ref] = useBox(() => ({
         mass: 0.1,
         position: position,
         args: [0.5,1,0.5]

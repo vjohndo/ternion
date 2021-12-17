@@ -6,11 +6,11 @@ import Montserrat from "../assets/montserrat.json"
 
 extend({ TextGeometry })
 
-export default function Text3d({position, text}){
+export default function Text3d({position, text, size}){
     const font = new FontLoader().parse(Montserrat);
     const textOptions = {
        font: font,
-       size: 2,
+       size: size,
        height: 0.5
     };
 
