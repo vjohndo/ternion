@@ -76,4 +76,5 @@ Express.js serving the React app.
 
 # Learning References 
 - [Threejs-journey](https://threejs-journey.com/)
-- [Get started with React and Three.js using react three fiber](https://www.youtube.com/watch?v=fdtqqyeKRJk)
+- [Get started with React and three.js using react three fiber](https://www.youtube.com/watch?v=fdtqqyeKRJk)
+- [My other repo with all attempts at learning three.js](https://github.com/vjohndo/three-react)
