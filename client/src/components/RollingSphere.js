@@ -20,7 +20,7 @@ export default function RollingSphere() {
     });
 
     return (
-        <mesh ref={ref} castShadow>
+        <mesh onclick={() => api.applyImpulse([0,20,0],[1,1,1])} ref={ref} castShadow>
             <sphereBufferGeometry attach="geometry" args={[0.25, 16, 16]}/>
             <meshStandardMaterial color="red"/>
         </mesh>

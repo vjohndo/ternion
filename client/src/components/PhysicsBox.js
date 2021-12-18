@@ -5,7 +5,7 @@ export default function PhysicsBox({position}) {
     const [ref] = useBox(() => ({
         mass: 0.1,
         position: position,
-        args: [0.5,1,0.5]
+        args: [0.25,1,0.25]
     }))
 
     return (
