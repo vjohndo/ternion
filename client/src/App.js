@@ -38,11 +38,16 @@ function App() {
                 /> 
                 <pointLight position = {[-10, 0, -20]} intensity={0.5}/>
                 <pointLight position = {[0, -10, 0]} intensity={1.5}/>
-                <Text3d position={[-6.2,12,-20]} text='Ternion' size={2}/>
-                <Text3d position={[-4.2,11,-20]} text='Mouse controls ball' size={0.5}/>
+                <Text3d position={[-6.2,13,-20]} text='Ternion' size={2}/>
+                <Text3d position={[-8.5,11,-20]} text='Mouse controls ball (relative to screen centre)' size={0.5}/>
+                <Text3d position={[-4.5,10.2,-20]} text='Hold left-click to rotate' size={0.5}/>
+                <Text3d position={[-4.4,9.4,-20]} text='Hold right-click to pan' size={0.5}/>
+                <Text3d position={[-4.2,8.6,-20]} text='Scroll wheel to zoom' size={0.5}/>
+                <Text3d position={[-5.9,7.8,-20]} text='Click on spinny cubes to inflate' size={0.5}/>
+                <Text3d position={[-4.7,7,-20]} text='Click on Ternion to reset' size={0.5}/>
 
-                <SpinningMesh position = {[6.2,13,-19.5]} color="purple" speed={6}/>
-                <SpinningMesh position = {[-8,13,-19.5]} color="purple" speed={-6}/>
+                <SpinningMesh position = {[6.2,14,-19.5]} color="purple" speed={6}/>
+                <SpinningMesh position = {[-8,14,-19.5]} color="purple" speed={-6}/>
 
                 <Physics>
                     <RaceTrack />
