@@ -13,9 +13,9 @@ export default function RollingSphere() {
     useFrame(({ mouse, camera }) => {
 
         if (camera.position.z >= 0) {
-            api.applyImpulse([(mouse.x * 0.2), 0, -(mouse.y * 0.2)],[1,1,1]);
+            api.applyImpulse([(mouse.x * 0.2), 0, -(mouse.y * 0.5)],[1,1,1]);
         } else {
-            api.applyImpulse([-(mouse.x * 0.2), 0, (mouse.y * 0.2)],[1,1,1]);
+            api.applyImpulse([-(mouse.x * 0.2), 0, (mouse.y * 0.5)],[1,1,1]);
         }
     });
 
