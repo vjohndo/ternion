@@ -1,11 +1,21 @@
 # Ternion
-Ternion is a React & three.js app that demonstrates 3D computer graphics in the browser using WebGL. Enjoy navigating a 3D space with lighting, shadows and physics. 
+Ternion is a React & three.js app that demonstrates 3D computer graphics in the browser using WebGL. A 3D simulation featuring a physics engine, object collision, adjustable camera, lighting and shadows. Roll a ball around a racetrack modelled after a real Formula 1 track while avoiding track obstacles. 
 
-A live demo can be found [here](https://ternion.herokuapp.com/).
+> Load in view and instructions
+
+![Loading View](./readme_imgs/ternion_load_page.png)
+
+> Modelled F1 Track
+
+![Loading View](./readme_imgs/ternion_race_course.png)
+
+> Physics collisions
+
+![Object Collision2](./readme_imgs/object_collision2.png)
 
 ## App Instructions
 ---
-- Where the mouse is in the viewport controls the impulse being applied to the ball.
+- Where the mouse is in the viewport controls the acceleration being applied to the ball.
 - Click on the ternion title to restart
 - Standard orbit controls: 
     - scroll wheel to zoom
@@ -16,27 +26,27 @@ A live demo can be found [here](https://ternion.herokuapp.com/).
 ---
 This app was built on Node.js and is an Express app. You will need to have Node.js installed to run this web app locally. To install all the dependencies, enter the following lines into the terminal
 
->` npm init `
+>`npm init`
 
->` npm install`
+>`npm install`
 
 Change in to the Client React app and install all the required dependencies. 
 
->` cd client `
+>`cd client`
 
->` yarn `
+>`yarn`
 
->` yarn start `
+>`yarn start`
 
 ## Application Deployment 
 ---
-If you are looking to host this on Heroku, within the client folder, udpate the package.json files scripts:
+If you are looking to host this on Heroku, within the client folder, update the package.json files inside the client directory with the following scripts:
 
 >` "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start", `
 
 >` "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build", `
 
-There are some compatibility issues with the version of React used for this project which the above scipts solve
+There are some compatibility issues with the version of React used for this project which the above scipts solve as of late 2021.
 
 ## Architechture
 ---
@@ -49,7 +59,7 @@ Express.js serving the React app.
 ### - @react-three/cannon
 - This library provides an API to simulate physics in a 3D scene
 - Different hooks provided for different type of the three.js objects
-- `api.applyImpulse` was the main call to move the ball based on mouse movements
+- `api.applyImpulse` was the main method to move the ball based on mouse movements
 ### - @react-three/drei
 - This library provides a way to implement camera controls for a 3D scene as well as other helper functions for @react-three/fiber
 - Typical orbit controls were used
