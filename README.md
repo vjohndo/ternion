@@ -1,5 +1,5 @@
 # Ternion
-Ternion is a React & three.js app that demonstrates 3D computer graphics in the browser using WebGL. A 3D simulation featuring a physics engine, object collision, adjustable camera, lighting and shadows. Roll a ball around a racetrack modelled after a real Formula 1 track while avoiding track obstacles. 
+Ternion is a React & three.js app that demonstrates 3D computer graphics in the browser using WebGL. It is a simulation featuring a physics engine, object collision, adjustable camera, lighting and shadows. Roll a ball around a racetrack modelled after a real Formula 1 track while avoiding track obstacles. 
 
 > Load in view and instructions
 
@@ -7,11 +7,11 @@ Ternion is a React & three.js app that demonstrates 3D computer graphics in the 
 
 > Modelled F1 Track
 
-![Loading View](./readme_imgs/ternion_race_course.png)
+![Racetrack View](./readme_imgs/ternion_race_course.png)
 
 > Physics collisions
 
-![Object Collision2](./readme_imgs/object_collision2.png)
+![Object Collision](./readme_imgs/object_collision2.png)
 
 ## App Instructions
 ---
