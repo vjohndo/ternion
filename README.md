@@ -1,5 +1,5 @@
 # Ternion
-Ternion is a React & three.js app that demonstrates 3D computer graphics in the browser using WebGL. It is a simulation featuring a physics engine, object collision, adjustable camera, lighting and shadows. Roll a ball around a racetrack modelled after a real Formula 1 track while avoiding track obstacles. 
+Ternion is a React & three.js app that demonstrates 3D computer graphics in the browser using WebGL. It is a physics simulation featuring object collisions, adjustable camera, lighting and shadows. Roll a ball around a racetrack modelled after a real Formula 1 track while avoiding track obstacles. 
 
 > Load in view and instructions
 
@@ -15,7 +15,7 @@ Ternion is a React & three.js app that demonstrates 3D computer graphics in the 
 
 ## App Instructions
 ---
-- Where the mouse is in the viewport controls the acceleration being applied to the ball.
+- Where the mouse is in the viewport controls the __acceleration__ being applied to the ball.
 - Click on the ternion title to restart
 - Standard orbit controls: 
     - scroll wheel to zoom
@@ -30,7 +30,7 @@ This app was built on Node.js and is an Express app. You will need to have Node.
 
 >`npm install`
 
-Change in to the Client React app and install all the required dependencies. 
+Change directories to the Client React app and install all the required dependencies. 
 
 >`cd client`
 
@@ -46,7 +46,7 @@ If you are looking to host this on Heroku, within the client folder, update the 
 
 >` "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build", `
 
-There are some compatibility issues with the version of React used for this project which the above scipts solve as of late 2021.
+*There are some compatibility issues with the version of React used for this project which the above scipts solve as of late 2021.*
 
 ## Architechture
 ---
@@ -77,7 +77,7 @@ Express.js serving the React app.
 - Lighting and shadows
 - Physics simulations
 - Ball rolling 
-- A reaction of the Sochi racetrack (using AutoCAD to generate an .xls file with coordinates, coverted to an array using [Mr. Data Converter](https://shancarter.github.io/mr-data-converter/)
+- A reaction of the Sochi racetrack (using AutoCAD to generate an .xls file with coordinates, coverted to an array using [Mr. Data Converter](https://shancarter.github.io/mr-data-converter/))
 
 # Potential Future Additions
 - Scene optimisations e.g. lighting, shawdows, dynamically loading in physics objects
